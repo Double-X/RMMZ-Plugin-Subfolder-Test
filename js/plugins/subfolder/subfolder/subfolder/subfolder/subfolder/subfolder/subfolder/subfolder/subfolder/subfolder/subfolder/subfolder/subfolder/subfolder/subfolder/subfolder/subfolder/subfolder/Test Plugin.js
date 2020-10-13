@@ -1,3 +1,22 @@
+[
+    SceneManager,
+    Scene_Base.prototype,
+    Scene_MenuBase.prototype,
+    Scene_Menu.prototype,
+    Sprite.prototype,
+    Window.prototype,
+    Window_Base.prototype,
+    Window_Scrollable.prototype,
+    Window_Selectable.prototype,
+    Window_Command.prototype,
+    Window_MenuCommand.prototype,
+    Window_Gold.prototype,
+    Window_MenuStatus.prototype
+].forEach(container => {
+    const updateContainer = container.update;
+    container.update = function() { updateContainer.apply(this, arguments); };
+});
+
 () => {
     if (false) return;
     if (false) return;
