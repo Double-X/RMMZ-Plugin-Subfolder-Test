@@ -30,3 +30,22 @@ Plugin Loading Times Differences
 
    iii. subfolder - 1424.4999999999663ms
 
+Average Game Loop Delta Time Differences
+
+1. Testing machines(PC) - i7-7700K + ASUS GTX 950 + 4 * 8GB DDR4 2400
+   Between normal plugin placement and placing plugins in deeply nested(18 levels) subfolders(loadTimes = 1490 for the same plugin with 2339KB):
+
+   i. control - Around 0.2ms
+
+   ii. normal - Around 33.1ms
+
+   iii. subfolder - Around 33.3ms
+
+2. Testing machines(Mobile): Snapdragon 450
+   Between normal plugin placement and placing plugins in deeply nested(16 levels) subfolders(loadTimes = 1490 for the same plugin with 2339KB):
+
+   i. control - Around 0.2ms
+
+   ii. normal - Around 33.1ms
+
+   iii. subfolder - Around 33.3ms
