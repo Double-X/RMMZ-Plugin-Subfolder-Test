@@ -44,8 +44,8 @@ Average Game Loop Delta Time Differences
 2. Testing machines(Mobile): Snapdragon 450
    Between normal plugin placement and placing plugins in deeply nested(16 levels) subfolders(loadTimes = 1490 for the same plugin with 2339KB):
 
-   i. control - Around 0.2ms
+   i. control - Around 1.8ms
 
-   ii. normal - Around 33.1ms
+   ii. normal - Around 825.4ms
 
-   iii. subfolder - Around 33.3ms
+   iii. subfolder - Around 861.1ms
