@@ -19,5 +19,7 @@ subfolder - 495.79000007361174ms
 Testing machine:
 
 i7-7700K
+
 ASUS GTX 950
+
 4 * 8GB DDR4 2400
