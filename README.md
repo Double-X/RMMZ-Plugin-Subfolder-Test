@@ -15,3 +15,9 @@ control - 10.735000018030405ms
 normal - 439.41499991342425ms
 
 subfolder - 495.79000007361174ms
+
+Testing machine:
+
+i7-7700K
+ASUS GTX 950
+4 * 8GB DDR4 2400
