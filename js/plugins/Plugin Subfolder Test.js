@@ -5,14 +5,14 @@
  * normal - Loads the test plugin placed normally
  * subfolder - Loads the test plugin placed inside a deeply nested subfolder
  */
-const testCase = "normal", loadTimes = 10000;
+const testCase = "normal", loadTimes = 1490;
 
 const testPluginName = "Test Plugin", testPluginLoadingTimes = test => {
     if (test === "control" || test !== "normal" && test !== "subfolder") return;
     const onerror = e => {}, makeUrl = test === "normal" ? filename => {
         return `js/plugins/${encodeURI(filename)}.js`;
     } : filename => {
-        return `js/plugins/${"subfolder/".repeat(18)}${encodeURI(filename)}.js`;
+        return `js/plugins/${"subfolder/".repeat(16)}${encodeURI(filename)}.js`;
     }, encodeURI = str => encodeURIComponent(str).replace(/%2F/g, "/");
     const scriptElem = "script", scriptType = "text/javascript";
     const body = document.body, loadScript = filename => {
